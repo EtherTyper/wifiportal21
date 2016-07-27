@@ -1,8 +1,6 @@
 # 21 WiFi Portal
 
-This is an experimental Wifi captive portal that accepts bitcoin payments for Wifi minutes.
-
-It uses the [21 Bitcoin Computer](http://21.co/) as the authentication server for any OpenWRT router running the Wifidog captive portal daemon.
+This is an experimental Wifi captive portal that accepts bitcoin payments for Wifi minutes. It uses the [21 Bitcoin Computer](http://21.co/) as the authentication server for any OpenWRT router running the Wifidog captive portal daemon.
 
 # INSTALL
 
@@ -25,8 +23,7 @@ It uses the [21 Bitcoin Computer](http://21.co/) as the authentication server fo
   ```
 
 
-Install OpenWRT and Wifidog on a wireless router
-------------------------------------------------
+## Install OpenWRT and Wifidog on a wireless router
 
 - Install OpenWRT (http://wiki.openwrt.org/doc/howto/generic.flashing)
 - Configure your wireless router and make sure it works properly. The WAN interface should be able to access the 21 computer IP address
@@ -42,7 +39,8 @@ Install OpenWRT and Wifidog on a wireless router
       ```
 
   - Set CheckInterval to 60 seconds (so that elapsed minutes are counted correctly)
-- Run:
+
+# RUN
 
   ```bash
   $ wifidog -f -d 6
