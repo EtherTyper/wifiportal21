@@ -1,3 +1,5 @@
+# 21 WiFi Portal
+
 This is an experimental Wifi captive portal that accepts bitcoin payments for Wifi minutes.
 
 It uses the [21 Bitcoin Computer](http://21.co/) as the authentication server for any OpenWRT router running the Wifidog captive portal daemon.
